@@ -12,6 +12,13 @@ for (let i = 0; i < 100; i++) {
 
     if(numb % number3 === 0 && numb % number5 ===0) {
         console.log(`${numb}: FizzBuzz`);
-    };
+    }
+
+// Altrimenti verifico se divisibile per 3
+    // Se è vero stampo Fizz
+    if(numb % number3 === 0) {
+        console.log(`${numb}: Fizz`)
+    }
+
     
 };
