@@ -14,11 +14,16 @@ for (let i = 0; i < 100; i++) {
         console.log(`${numb}: FizzBuzz`);
     }
 
-// Altrimenti verifico se divisibile per 3
+// Altrimenti verifico se il numero divisibile per 3
     // Se è vero stampo Fizz
     if(numb % number3 === 0) {
         console.log(`${numb}: Fizz`)
     }
 
-    
+// Altrimennti verifico se il numero e divisibile per 5
+    // Se è vero stampare Buzz
+        if(numb % number5 === 0) {
+        console.log(`${numb}: Buzz`)
+    }
+
 };
