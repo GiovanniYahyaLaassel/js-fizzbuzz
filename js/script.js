@@ -16,13 +16,13 @@ for (let i = 0; i < 100; i++) {
 
 // Altrimenti verifico se il numero divisibile per 3
     // Se è vero stampo Fizz
-    if(numb % number3 === 0) {
+    else if (numb % number3 === 0) {
         console.log(`${numb}: Fizz`)
     }
 
 // Altrimennti verifico se il numero e divisibile per 5
     // Se è vero stampare Buzz
-        if(numb % number5 === 0) {
+        else if(numb % number5 === 0) {
         console.log(`${numb}: Buzz`)
     }
 // Fine Ciclo, se il numero non è divisibile ne per 3 ne per 5 verrà stampato il numero stesso.
